@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+.nav-background {
+  background: black !important;
+}
+
+.nav-home:hover {
+  color: #e62429 !important;
+  -webkit-transition: 300ms ease !important;
+  transition: 300ms ease !important;
+}
+
+.nav-favorites:hover {
+  color: #e62429 !important;
+  -webkit-transition: 300ms ease !important;
+  transition: 300ms ease !important;
+}
+
+.hero-img {
+  width: 200px;
+  height: 200px;
+}
+
+.hero-name {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background: black;
+  width: 200px;
+  height: 150px;
+  padding-top: 15px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 91%, 92% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0, 100% 91%, 92% 100%, 0% 100%);
+}
+
+.hero-name:hover {
+  background: #e62429;
+  color: white;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
+.hero-span {
+  width: 200px;
+  height: 4px;
+  background: red;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 130px;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+.item-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.item-search a {
+  margin: 15px;
+}
+
+.logo-marvel {
+  width: 100px;
+  padding-right: 20px;
+}
+
+.pagination {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.favorites-item h1 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.container-img {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("https://images6.alphacoders.com/385/thumb-1920-385660.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images6.alphacoders.com/385/thumb-1920-385660.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+.container-img h1 {
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 44px;
+}
+
+.container-img h4 {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  height: 150px;
+  margin-top: 50px;
+}
+
+.contenido-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+}
+
+.contenido-footer img {
+  width: 8%;
+}
+
+.container-linkedin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container-linkedin img {
+  width: 40px;
+  height: 40px;
+}
+
+.container-linkedin h4 {
+  font-size: 14px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: white;
+}
+/*# sourceMappingURL=style.css.map */

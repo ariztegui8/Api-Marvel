@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+.nav-background {
+  background: black !important;
+}
+
+.nav-home:hover {
+  color: #e62429 !important;
+  transition: 300ms ease !important;
+}
+
+.nav-favorites:hover {
+  color: #e62429 !important;
+  transition: 300ms ease !important;
+}
+
+.hero-img {
+  width: 200px;
+  height: 200px;
+}
+
+.hero-name {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background: black;
+  width: 200px;
+  height: 150px;
+  padding-top: 15px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 91%, 92% 100%, 0% 100%);
+}
+
+.hero-name:hover {
+  background: #e62429;
+  color: white;
+  transition: 300ms ease;
+}
+
+.hero-span {
+  width: 200px;
+  height: 4px;
+  background: red;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.item-search {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-search a {
+  margin: 15px;
+}
+
+.logo-marvel {
+  width: 100px;
+  padding-right: 20px;
+}
+
+.pagination {
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.favorites-item h1 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.container-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images6.alphacoders.com/385/thumb-1920-385660.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+.container-img h1 {
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 44px;
+}
+
+.container-img h4 {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  height: 150px;
+  margin-top: 50px;
+}
+
+.contenido-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+}
+
+.contenido-footer img {
+  width: 8%;
+}
+
+.container-linkedin {
+  display: flex;
+  align-items: flex-end;
+}
+
+.container-linkedin img {
+  width: 40px;
+  height: 40px;
+}
+
+.container-linkedin h4 {
+  font-size: 14px;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+}
+
+/*# sourceMappingURL=style.css.map */

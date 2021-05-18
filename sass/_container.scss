@@ -1,0 +1,57 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.item-search{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-search a{
+    margin: 15px;
+}
+
+.logo-marvel {
+    width: 100px;
+    padding-right: 20px;
+}
+
+
+.pagination{
+    
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.favorites-item h1{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-img{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://images6.alphacoders.com/385/thumb-1920-385660.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+.container-img h1{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 44px;
+}
+
+.container-img h4{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}

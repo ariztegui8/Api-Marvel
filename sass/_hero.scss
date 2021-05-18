@@ -1,0 +1,27 @@
+.hero-img{
+    width: 200px;
+    height: 200px;
+}
+
+.hero-name{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background: black;
+    width: 200px;
+    height: 150px;
+    padding-top: 15px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 91%, 92% 100%, 0% 100%);
+}
+
+.hero-name:hover{
+    background: #e62429;
+    color: white;
+    transition: 300ms ease;
+}
+
+.hero-span{
+    width: 200px;
+    height: 4px;
+    background: red;
+}
